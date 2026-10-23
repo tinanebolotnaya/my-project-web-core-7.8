@@ -92,6 +92,11 @@ h3::before {
   font-family: "TTlakes";
 }
 
+.main-menu__list li:hover {
+  cursor: pointer;
+  color: rgba(126, 126, 130, 1);
+}
+
 .main-menu__contacts {
   display: flex;
   flex-direction: column;
@@ -158,5 +163,10 @@ h3::before {
 }
 
 .main-menu__language-choice--RU {
+  color: rgba(126, 126, 130, 1);
+}
+
+.main-menu__language-choice:hover {
+  cursor: pointer;
   color: rgba(126, 126, 130, 1);
 }
